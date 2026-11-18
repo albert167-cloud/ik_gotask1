@@ -14,8 +14,13 @@ import "fmt"
 
 func romanToInt(s string) int {
 	val := map[byte]int{
-		'I': 1, 'V': 5, 'X': 10, 'L': 50,
-		'C': 100, 'D': 500, 'M': 1000,
+		'I': 1, 
+		'V': 5, 
+		'X': 10, 
+		'L': 50,
+		'C': 100, 
+		'D': 500, 
+		'M': 1000,
 	}
 
 	total := 0
@@ -38,7 +43,7 @@ func main() {
 		input    string
 		expected int
 	}{
-		{"test 1 (example 1)", "III", 3},
+		{"test 1 (example 1)", "LX", 60},
 		{"test 2 (example 2)", "LVIII", 58},
 		{"test 3 (example 3)", "MCMXCIV", 1994},
 		{"four", "IV", 4},

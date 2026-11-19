@@ -1,0 +1,21 @@
+Function Test scenarios
+Create
+account
+Valid account creation
+Create
+account
+Empty account holder name
+Deposit Successful deposit
+Deposit Zero deposit
+Deposit Negative deposit
+Withdraw Successful withdrawal
+Withdraw Insufficient balance
+Withdraw Zero withdrawal
+Withdraw Negative withdrawal
+Check
+balance
+Account with existing balance
+Transfer Successful transfer
+Transfer Insufficient sender balance
+Transfer Zero or negative transfer
+Transfer Transfer to same account
